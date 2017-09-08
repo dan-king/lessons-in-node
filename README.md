@@ -24,3 +24,31 @@ http.createServer(function(req,res){
 
 console.log('Server started on localhost:3000; press Ctrl-C to terminate....');
 ```
+
+# Lesson 3 - Hello World in the browser with additional paths
+Building on Lesson 2 we add an option for browsing to another path, "/about".
+We also add a 404 Not Found page for invalid links.
+```javascript
+var http = require('http');
+
+http.createServer(function(req,res){
+	// Normalize url by removing querystring, optional trailing slash, and making it lowercase.
+	var path = req.url.replace(/\/?(?:\?.*)?$/, '').toLowerCase();
+	switch(path) {
+		case '':
+			res.writeHead(200, { 'Content-Type': 'text/plain' });
+			res.end('Hello World!');
+			break;
+		case '/about':
+			res.writeHead(200, { 'Content-Type': 'text/plain' });
+			res.end('All about this website...');
+			break;
+		default:
+			res.writeHead(404, { 'Content-Type': 'text/plain' });
+			res.end('Not Found');
+			break;
+	}
+}).listen(3000);
+
+console.log('Server started on localhost:3000; press Ctrl-C to terminate....');
+```
