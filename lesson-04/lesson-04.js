@@ -19,7 +19,7 @@
 // The "--save" flag updates the package.json
 
 //
-// Define and express application
+// Define an express application
 //
 var express = require('express');
 var app = express();

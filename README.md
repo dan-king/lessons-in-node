@@ -54,4 +54,8 @@ console.log('Server started on localhost:3000; press Ctrl-C to terminate....');
 ```
 
 
-# Lesson 4 
+# Lesson 4 - Hello World with the Express.js web framework package.
+
+This lesson get its own folder! Look at the README.md file in the lesson-04 folder for the steps to create a web-based Node.js application using the popular Express.js web framework.
+
+
