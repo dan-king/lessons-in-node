@@ -32,13 +32,13 @@ app.set('port', process.env.PORT || 3000);
 // Home
 app.get('/', function(req, res){
 	res.type('text/plain');
-	res.send('Home Sweet Home!');
+	res.send('Home Sweet Home');
 });
 
 // About
 app.get('/about', function(req, res){
 	res.type('text/plain');
-	res.send('This is the about page.');
+	res.send('This is the about page');
 });
 
 //
