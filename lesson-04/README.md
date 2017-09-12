@@ -1,24 +1,24 @@
 This lesson get its own folder! 
 
-Node.js is augmented by an extensive library of add-on packages, including the wildly popular Express.js web framework.
+Node.js is augmented by an extensive library of add-on packages, including the popular [Express.js](https://expressjs.com/) web framework.
 
 To use a Node package we use the `npm` command (npm stands for Node Package Manager).
 
 But first we will create a new project using the "init" option of npm:
 
-```javascript
+```shell
 npm init
 ````
 
 Click enter to accept the defaults.
 
-When asked for the project license you can enter `UNLICENSED` if your project is propriety. If you project is open source you can enter of one of the many open source licenses, such as `MIT` (see Massachusetts Institute of Technology).
+When asked for the project license you can enter `UNLICENSED` if your project is propriety. If you project is open source you can enter of one of the many open source licenses, such as `MIT` (see [Massachusetts Institute of Technology License](https://en.wikipedia.org/wiki/MIT_License)).
 
-The npm init command creates a file called package.json which is used to document our project’s dependencies.
+The `npm init` command creates a file called `package.json` which is used to document our project’s dependencies.
 
 Next we will install Express.js like this:
 
-```javascript
+```shell
 npm install express --save
 ````
 
@@ -30,7 +30,7 @@ The cool thing about the package.json is that we can re-install the all the pack
 
 Go ahead, try it out. Delete the `node_modules` folder and run `npm install`. It will re-create the `node_modules` folder and download the files required by the Express.js package.
 
-Our lesson-04.js file invokes the Express.js module and uses it to create and present our Home, About and Not-Found pages.
+Our `lesson-04.js` file invokes the Express.js module and uses it to create and present our Home, About and Not-Found pages.
 
 ```javascript
 
