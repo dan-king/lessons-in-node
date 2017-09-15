@@ -60,3 +60,5 @@ This lesson get its own folder! Look at the [README.md](./lesson-04/README.md) f
 
 
 # Lesson 5
+
+This lesson introduces the [Handlebars](http://handlebarsjs.com) templating engine for Node. See [README.md](./lesson-05/README.md) file in the [lesson-05](./lesson-05) folder.
