@@ -18,6 +18,12 @@ A shortcut to the syntax above is:
 npm i -S express-handlebars
 ````
 
+The new `views` folder contains the Handlebars templates for each of the pages we are displaying.
+
+The new `views/layouts` folder contains a specail Handlebars template called `main`. The content in this template is the wrapper for the other Handlebars templates.
+
+We use `main.handlebars` to store our header and footer sections of the website.
+
 In addition to the text specfic to each page, the links below will also include a navigation header and copyright footer.
 
 Browsing to [http://localhost:3000/](http://localhost:3000/) will display 
