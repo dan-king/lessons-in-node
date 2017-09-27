@@ -59,6 +59,11 @@ console.log('Server started on localhost:3000; press Ctrl-C to terminate....');
 This lesson get its own folder! Look at the [README.md](./lesson-04/README.md) file in the [lesson-04](./lesson-04) folder for the steps to create a web-based Node.js application using the popular [Express.js](https://expressjs.com/) web framework.
 
 
-# Lesson 5
+# Lesson 5 - Handlebars Templating Engine
 
 This lesson introduces the [Handlebars](http://handlebarsjs.com) templating engine for Node. See [README.md](./lesson-05/README.md) file in the [lesson-05](./lesson-05) folder.
+
+
+# Lesson 6 - Static Middleware
+
+In this lesson we show how to use `middleware` to define a path.
