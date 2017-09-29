@@ -67,3 +67,17 @@ This lesson introduces the [Handlebars](http://handlebarsjs.com) templating engi
 # Lesson 6 - Static Middleware
 
 In this lesson we show how to use `middleware` to define a path.
+
+# Roadmap
+
+Lesson 7 - More static middleware with hard-coded adages for random message-of-the-day
+
+Lesson 8 - Route folder
+
+Lesson 9 - Sessions (non-db)
+
+Lesson X - Sequelize, models folder
+
+Lesson X - Session revisited (using db)
+
+Lesson X - Passport.js
