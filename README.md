@@ -81,3 +81,8 @@ Lesson X - Sequelize, models folder
 Lesson X - Session revisited (using db)
 
 Lesson X - Passport.js
+
+Lesson X - Credentials
+		- via CLI
+		- via ENV vars
+		- via config file
