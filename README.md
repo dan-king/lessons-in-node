@@ -86,3 +86,10 @@ Lesson X - Credentials
 		- via CLI
 		- via ENV vars
 		- via config file
+
+Lesson X - Audio
+		- HTML5 <audio> tag
+		- JavaScript audio commands
+		- File formats
+		- Working with iOS
+		- Audio sprites
