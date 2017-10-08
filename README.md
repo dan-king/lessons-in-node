@@ -68,13 +68,22 @@ This lesson introduces the [Handlebars](http://handlebarsjs.com) templating engi
 
 In this lesson we show how to use `middleware` to define a path.
 
+# Lesson 7 - Routes
+
+A variety of methods showing how to consolidate and handle all the routes within a project.
+
+
+Method 1 - Invoke each routefile individually
+
+Method 2 - From Ch 14 source: WDWN&E
+
+Method X - Use FS to read files in /routes folder
+
 # Roadmap
 
-Lesson 7 - More static middleware with hard-coded adages for random message-of-the-day
+Lesson X - More static middleware with hard-coded adages for random message-of-the-day
 
-Lesson 8 - Route folder
-
-Lesson 9 - Sessions (non-db)
+Lesson X - Sessions (non-db)
 
 Lesson X - Sequelize, models folder
 
