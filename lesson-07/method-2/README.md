@@ -2,7 +2,7 @@
 
 Lesson 7 shows how to organize and manage routes into a single subfolder.
 
-The second method is from [Chapter 14 of Ethan Brown's 'Web Development with Node and Exress'](https://github.com/EthanRBrown/web-development-with-node-and-express/tree/master/ch14) [(https://github.com/EthanRBrown/web-development-with-node-and-express/tree/master/ch14)].
+The second method is from [Chapter 14 of Ethan Brown's `Web Development with Node and Express`](https://github.com/EthanRBrown/web-development-with-node-and-express/tree/master/ch14) (https://github.com/EthanRBrown/web-development-with-node-and-express/tree/master/ch14).
 
 The dependencies are already included in `package.json` so begin by installing them:
 
