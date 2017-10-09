@@ -1,5 +1,5 @@
-# Lessons in node
-Short lessons in Node.js beginning with simple Hello World examples.
+# Lessons in Node
+Short lessons in Node.js beginning with simple `Hello World` examples.
 
 # Lesson 1 - Hello World from the command line
 The first lesson shows how to print 'Hello World!' from the command line. 
@@ -26,8 +26,8 @@ console.log('Server started on localhost:3000; press Ctrl-C to terminate....');
 ```
 
 # Lesson 3 - Hello World in the browser with additional paths
-Building on Lesson 2 we add an option for browsing to another path, "/about".
-We also add a 404 Not Found page for invalid links.
+Building on Lesson 2 we add an option for browsing to another path, `/about`.
+We also add a `404 Not Found` page for invalid links.
 ```javascript
 var http = require('http');
 
@@ -54,28 +54,28 @@ console.log('Server started on localhost:3000; press Ctrl-C to terminate....');
 ```
 
 
-# Lesson 4 - Hello World with the Express.js web framework package.
+# [Lesson 4](https://github.com/dan-king/lessons-in-node/tree/master/lesson-04) - Hello World with the Express.js web framework package.
 
 This lesson get its own folder! Look at the [README.md](./lesson-04/README.md) file in the [lesson-04](./lesson-04) folder for the steps to create a web-based Node.js application using the popular [Express.js](https://expressjs.com/) web framework.
 
 
-# Lesson 5 - Handlebars Templating Engine
+# [Lesson 5](https://github.com/dan-king/lessons-in-node/tree/master/lesson-05) - Handlebars Templating Engine
 
-This lesson introduces the [Handlebars](http://handlebarsjs.com) templating engine for Node. See [README.md](./lesson-05/README.md) file in the [lesson-05](./lesson-05) folder.
+This lesson introduces the [Handlebars](http://handlebarsjs.com) templating engine for Node. See the [README.md](./lesson-05/README.md) file in the [lesson-05](./lesson-05) folder.
 
 
-# Lesson 6 - Static Middleware
+# [Lesson 6](https://github.com/dan-king/lessons-in-node/tree/master/lesson-06) - Static Middleware
 
 In this lesson we show how to use `middleware` to define a path.
 
-# Lesson 7 - Routes
+# [Lesson 7](https://github.com/dan-king/lessons-in-node/tree/master/lesson-07) - Routes
 
 A variety of methods showing how to consolidate and handle all the routes within a project.
 
 
-Method 1 - Invoke each routefile individually
+[Method 1](https://github.com/dan-king/lessons-in-node/tree/master/lesson-07/method-1) - Invoke each route file individually
 
-Method 2 - From Ch 14 source: WDWN&E
+[Method 2](https://github.com/dan-king/lessons-in-node/tree/master/lesson-07/method-2) - Invoke from a single `routes.js` file as described in [Chapter 14 of Ethan Brown's `Web Development with Node and Express`](https://github.com/EthanRBrown/web-development-with-node-and-express/tree/master/ch14) (https://github.com/EthanRBrown/web-development-with-node-and-express/tree/master/ch14)
 
 Method X - Use FS to read files in /routes folder
 
